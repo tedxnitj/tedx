@@ -133,7 +133,7 @@ const handleClose2 = () => setShow2(false)
     <li>Meet and Greet with the speakers</li>
     <li>Exclusive TEDx goodies</li>
     <li>Exciting games</li>
-    <li>LLunch and Snacks</li>
+    <li>Lunch and Snacks</li>
     <li>E-Certificates for attendies</li>
   </ul>
 
