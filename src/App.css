@@ -236,6 +236,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 .banner__left {
   padding: 20px;
   text-align: left;
+  margin: auto;
 }
 
 .banner__left img {
@@ -266,7 +267,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   font-size: 18px;
   position: relative;
   background-color: transparent;
-  /* transition: 0.3s ease-in-out; */
+  transition: 0.3s ease-in-out;
 }
 
 .vvd>span {
@@ -358,10 +359,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   justify-content: center;
  
 } */
-.navbar-collapse {
-  max-height: 0.9vh;
-  overflow-y: auto;
-}
+
 
 .heading__mobile h1 {
   color: white;

@@ -49,7 +49,7 @@ export const Theme = () => {
 
   // },[])
   return (
-    <div className='theme__page' id='about'>
+    <div className='theme__page'>
       {/* <div className='theme__heading'>
         <h1>REVERBERATED 2023</h1>
       </div> */}

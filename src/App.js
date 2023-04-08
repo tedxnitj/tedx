@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { useState, useEffect ,useRef} from 'react';
-import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import { Banner } from "./components/Banner";
 import { FixedBack } from "./components/FixedBack";
@@ -27,8 +27,6 @@ import { Events } from './components/Events';
 
 // export const customHistory = createBrowserHistory(); 
 function App() {
-
-  const resultref=useRef(null);
   const [backend, setBackend] = useState([{}])
   // useEffect(()=>{
   //   fetch("/api").then(response => response.json()).then(data => {
@@ -43,11 +41,10 @@ function App() {
 
       <Switch>
         <Route exact path='/'>
-          <Redirect to = "/home" />
-          <FixedBack />
+             <FixedBack />
           <ParticleBackground />
           <Banner />
-        
+       
           <Theme />
           <About />
           {/* <Test/> */}
@@ -58,29 +55,13 @@ function App() {
           <Copyright /> 
           
         </Route>
-        <Route exact path='/home'>
-        <FixedBack />
-          <ParticleBackground />
-          <Banner />
-      
-          <Theme />
-          <About />
-          <Speakers/>
-          {/* <Test/> */}
-          <Connect />
-          {/* <p>{backend}</p> */}
-          
-          <Footer />
-          <Copyright /> 
-          
-        </Route>
-        {/* <Route path='/conferences'> */}
+        <Route path='/conferences'>
           {/* <MainTheme /> */}
-          {/* <Conference resultref={resultref}/>
-          <Speakers ref={resultref}/>
+          <Conference />
+          <Speakers/>
           <Events/>
 
-        </Route> */}
+        </Route>
         <Route path='/sponsors'>
           <Sponsors/>
 

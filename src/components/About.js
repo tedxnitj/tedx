@@ -17,7 +17,7 @@ export const About = () => {
 
     // },[])
     return (
-        <div className="about__page" >
+        <div className="about__page">
 
             <div className="about">
 

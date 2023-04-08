@@ -105,12 +105,12 @@ const handleClose2 = () => setShow2(false)
       <div className="Timer">
                 <Timer/>
 
-                <div className='buttonsintimer'>
-                <button className="vvd redback" onClick={handleShow2} data-toggle="modal"><span>DON'T MISS</span></button>
-        <button className="vvd" onClick={handleShow} data-toggle="modal"><span>BUY TICKETS</span></button>
-       
-      </div>
-    
+  
+      <div class="outer buttonsintimer">
+  
+    <button className="button2 redback" onClick={handleShow2} data-toggle="modal"><span>DON'T MISS</span></button>
+        <button className="button" onClick={handleShow} data-toggle="modal"><span>BUY TICKETS</span></button>
+  </div>
       <Modal show={show} onHide={handleClose} centered>
           <Modal.Header style={{backgroundColor:'black'}} closeButton>
             <Modal.Title style={{color:'red', backgroundColor:'black'}}>Book Tickets</Modal.Title>

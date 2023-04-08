@@ -2,19 +2,13 @@ import React from 'react'
 import { Team } from './Team'
 import './Conference.css'
 import {Fade} from "react-awesome-reveal"
-export const Conference = ({resultref}) => {
-  console.log({resultref})
-  const helper=()=>{
-resultref.current.scrollIntoView({behavior : "smooth"})
-  }
-
+export const Conference = () => {
   return (
     <div>
         {/* <div className='speaker__header'>
             <h1>Speakers</h1>
             
         </div> */}
-        <button onClick={helper}>click me</button>
         <div className='conferences'>
           <div className='conference__main'>
             <div className='conference__mainHeading text-center'>

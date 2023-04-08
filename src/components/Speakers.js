@@ -1,8 +1,8 @@
-import React, { useEffect ,forwardRef} from 'react'
+import React, { useEffect } from 'react'
 import './Team.css'
 import SpeakerCard from './SpeakerCard'
 import { useState } from 'react'
- export const Speakers = forwardRef((props,ref) => {
+export const Speakers = () => {
   const [speakers, setSpeakers] = useState([{}])
   useEffect(() => {
     // const requestOptions = {
@@ -23,7 +23,7 @@ import { useState } from 'react'
   }, [])
   // let speakerObject = JSON.parse(speakers)
   return (
-    <div className='speakers'  ref={ref} id='speakers'>
+    <div className='speakers'>
 
       <div class="SpeakerCarousel__TableContainer-sc-tve874-0 jbNFLs">
         <div className='carousel__heading speakers__heading'>
@@ -54,4 +54,4 @@ import { useState } from 'react'
       {/* <Event/> */}
     </div>
   )
-});
+}

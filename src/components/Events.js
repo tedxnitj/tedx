@@ -2,7 +2,6 @@ import React,{useState} from 'react'
 import logo from '../assets/img/tedxnitjLogoTwoLine.png';
 
 export const Events = () => {
-
   return (
     <div className='tedxEvents'>
         <div className='tedxEventsLogo'>
