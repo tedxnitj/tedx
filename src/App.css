@@ -236,11 +236,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 .banner__left {
   padding: 20px;
   text-align: left;
-  margin: auto;
+
 }
 
 .banner__left img {
   padding: 20px;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
 }
 
 .banner__left p {
