@@ -1,0 +1,57 @@
+@font-face {
+    font-family: houva;
+    src: url(../assets/font/HuovaDemo-Light.ttf);
+}
+.conferences{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    background: url(../assets/img/bg-sponsors.png) no-repeat center center/cover;
+    justify-content: center;
+
+}
+.conference__mainHeading h6{
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 16px;
+    /* or 160% */
+
+    /* display: flex;
+    align-items: center; */
+    letter-spacing: 1.8px;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+.conference__main{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 2px;
+}
+.conference__maintext{
+    font-family: houva;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45.641px;
+    line-height: 73px;
+/* or 160% */
+
+
+}
+.conference__image{
+    font-family: 'Plus Jakarta sans';
+    padding: 50px;
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 10px; */
+    line-height: 16px;
+    /* or 160% */
+
+    /* display: flex;
+    align-items: center; */
+    letter-spacing: 1.8px;
+
+    color: rgba(255, 255, 255, 0.8);
+    background: url(./conBG.png) no-repeat center center;
+}

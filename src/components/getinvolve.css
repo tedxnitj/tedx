@@ -1,0 +1,110 @@
+#spekin {
+    /* background: url(./getInvolve.jpg) no-repeat center center fixed; */
+    background-color: white;
+    /* color: black; */
+    margin: 0;
+    padding: 50px 40px;
+    background-size: cover;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.whitefont {
+    color: black;
+}
+.sym {
+    margin: 60px 20px;
+}
+.sym .fa {
+    font-size: 3rem;
+    background-color: rgb(230,43,30);
+    color: #fff;
+    width: 100px;
+    padding: 0;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    margin: 0;
+    line-height: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(230,43,30);
+    height: 100px;
+    transition: all 0.3s ease;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px;
+    /* font-size: inherit; */
+    text-rendering: auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.fa:hover{
+    background-color: white;
+    color: rgb(230,43,30);
+}
+.fa svg{
+    margin-bottom: 18px;
+    font-size: 60px;
+}
+
+.symdes {
+    padding: 15px;
+}
+.symdes p{
+    /* text-align: justify; */
+    font-weight: 100;
+    color: black;
+    opacity: 0.8;
+}
+.makeitwhite{
+    color: #fff;
+}
+.fa-wpforms:before {
+    content: "\f298";
+}
+.fa-user-plus:before {
+    content: "\f234";
+}
+.fa-street-view:before {
+    content: "\f21d";
+}
+.appBtn {
+    background-color: rgb(230,43,30);
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 10px 60px;
+    transform: scale(1);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px grey;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+}
+.appBtn:hover{
+    transform: scale(1.1);
+
+}
+#partin {
+    margin: 0;
+    padding: 70px 40px 50px 40px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+/* button:hover{
+    box-shadow: 10px 10px #fff;
+} */
+.emphasis {
+    color: #f00;
+    font-weight: 700;
+}
+.fa-chain::before, .fa-link:before {
+    content: "\f0c1";
+}
+.fa-line-chart:before {
+    content: "\f201";
+}
+.fa-flash:before, .fa-bolt:before {
+    content: "\f0e7";
+}
