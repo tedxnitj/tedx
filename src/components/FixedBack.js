@@ -132,7 +132,7 @@ const handleClose2 = () => setShow2(false)
   <ul>
     <li>Meet and Greet with the speakers</li>
     <li>Exclusive TEDx goodies</li>
-    <li>Free newslaundry one year subscription worth &#8377;1500</li>
+    <li>Free newslaundry one year subscription worth &#8377;3000</li>
     <li>Exciting games</li>
     <li>Lunch and Snacks</li>
     <li>E-Certificates for attendies</li>
