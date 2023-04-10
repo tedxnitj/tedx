@@ -128,16 +128,17 @@ const handleClose2 = () => setShow2(false)
           
             <Modal.Body style={{backgroundColor:'black'}}>
             <section class="in-store">
-  <h2>What's In Store for You?</h2>
+  {/* <h2>What's In Store for You?</h2> */}
   <ul>
     <li>Meet and Greet with the speakers</li>
     <li>Exclusive TEDx goodies</li>
+    <li>Free newslaundry one year subscription worth &#8377;1500</li>
     <li>Exciting games</li>
     <li>Lunch and Snacks</li>
     <li>E-Certificates for attendies</li>
   </ul>
 
-  <h5>and many more surprise</h5>
+  <h5>and many more <span className='makeitred'>sur</span>prise</h5>
 </section>
 
             </Modal.Body>

@@ -320,3 +320,12 @@
         margin-bottom: 8px;
         }
   }
+
+  .in-store{
+    background-color: #151515;
+    padding: 4px;
+    border-radius: 4px;
+  }
+  .in-store h5{
+    margin-left: 4px;
+  }
