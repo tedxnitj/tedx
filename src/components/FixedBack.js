@@ -135,7 +135,7 @@ const handleClose2 = () => setShow2(false)
     <li>Free newslaundry one year subscription worth &#8377;1500</li>
     <li>Exciting games</li>
     <li>Lunch and Snacks</li>
-    <li>E-Certificates for attendies</li>
+    <li>E-Certificates for attendees</li>
   </ul>
 
   <h5>and many more <span className='makeitred'>sur</span>prise</h5>

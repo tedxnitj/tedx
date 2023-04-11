@@ -19,7 +19,7 @@ const Timer = () => {
       setMinutes(0);
     } else {
       setDays(Math.floor(time / (1000 * 60 * 60 * 24)));
-      setHours(Math.floor((time / (1000 * 60 * 60)) % 24));
+      setHours(Math.floor((time / (1000 * 60 * 60)) % 24)+12);
       setMinutes(Math.floor((time / 1000 / 60) % 60));
       setSeconds(Math.floor((time / 1000) % 60));
     }
