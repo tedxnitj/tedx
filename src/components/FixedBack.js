@@ -133,6 +133,7 @@ const handleClose2 = () => setShow2(false)
     <li>Meet and Greet with the speakers</li>
     <li>Exclusive TEDx goodies</li>
     <li>Free newslaundry one year subscription worth &#8377;3000</li>
+    <li> GameOn discount coupons for attendees worth &#8377; 500</li>
     <li>Exciting games</li>
     <li>Lunch and Snacks</li>
     <li>E-Certificates for attendees</li>
