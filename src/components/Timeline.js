@@ -43,7 +43,7 @@ const timelineData = [
       
     },
     {
-        text: 'Giveaway / Game session (With Game-On Coupons)',
+        text: 'Giveaway / Game session (With Smaaash Coupons)',
         date: '3:20-3:40 PM',
       
     },
