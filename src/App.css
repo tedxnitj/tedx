@@ -387,16 +387,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 .theme__page {
   background-color: black;
   font-family: 'Plus Jakarta Sans';
-  /* display: flex; */
-  /* border: 2px solid blue; */
-  /* border: 1px solid green; */
-  /* padding: 100px; */
-  /* align-items: center;
-  height: 100vh;
-  width: 100vw; */
-  /* padding-top: 200px; */
-  /* justify-content: space-between; */
-  /* margin-left: 30px; */
+display: flex;
+align-items: center;
 }
 
 .theme__heading {
@@ -427,10 +419,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 
 
-.theme-image{
+/* .theme-image{
   background: url('../src/assets/websiteImage.png');
-  /* box-shadow: inset 0 0 0 1000px rgba(226, 90, 90, 0.185); */
+
 }
+*/
+
+
+.theme-image iframe{
+  height: 80%;
+  width: 100%;
+  margin-left: 5px;
+}
+
+
 @media screen and (max-width: 767px) {
   .theme-image{
     width:100vw;
@@ -686,6 +688,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 .theme__page {
   /* border: 10px solid red; */
+
 }
 
 .about_heading {

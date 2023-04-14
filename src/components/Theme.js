@@ -57,7 +57,8 @@ export const Theme = () => {
         
           <div class="col-md-6 col-sm-12 theme-image">
 
-
+          <iframe src="https://drive.google.com/file/d/1eIDb9eRe8Ud2X8VHwVEWRzheCmWFB5Xr/preview"  frameborder="0"
+allowfullscreen allow="autoplay"></iframe>
             {/* <div class="sidenav">
             <div class="login-main-text"> */}
             {/* <iframe src="https://embed.lottiefiles.com/animation/138377"></iframe> */}
