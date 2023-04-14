@@ -35,13 +35,19 @@ function App() {
   //   })
   // },[])
 
-  
+useEffect(()=>{
+  let slug = window.location.href.match(/[^#]+/g)
+  console.log(slug)
+  if(slug[slug.length-1]==="timeline")
+  {
+    var element = document.getElementById("timeline");
+    element.scrollIntoView();
+  }
+},[]);
   return (
     <div className="App">
       
-
       <Navbaar />
-
       <Switch>
         <Route exact path='/'>
              <FixedBack />
@@ -59,6 +65,7 @@ function App() {
           <Copyright /> 
           
         </Route>
+       
         <Route path='/conferences'>
           {/* <MainTheme /> */}
           <Conference />

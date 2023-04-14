@@ -87,6 +87,8 @@ export const Theme = () => {
           <h1>REVERBERA<span className="makeitred">TED</span></h1>
         </div>
       </div>
+
     </div>
+   
   )
 }

@@ -90,7 +90,7 @@ const timelineData = [
 
 export const Timeline = () =>
     timelineData.length > 0 && (
-        <div className="timeline-container">
+        <div className="timeline-container" id='timeline'>
             {timelineData.map((data, idx) => (
                 <TimelineItem data={data} key={idx} />
             ))}

@@ -1,7 +1,8 @@
 import React from 'react'
+
 export const TimelineItem = ({ data }) => (
     <div className="timeline-item">
-        <div className="timeline-item-content">
+        <div className="timeline-item-content" >
            
             <time>{data.date}</time>
             <p>{data.text}</p>
@@ -9,4 +10,5 @@ export const TimelineItem = ({ data }) => (
             <span className="circle" />
         </div>
     </div>
+  
 );
