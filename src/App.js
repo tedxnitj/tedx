@@ -23,6 +23,7 @@ import NewsletterSubscribe from './components/NewsletterSubscribe';
 import { Gallery } from './components/Gallery';
 import { GetInvolved } from './components/GetInvolved';
 import { Events } from './components/Events';
+import { Timeline } from './components/Timeline';
 // import {createBrowserHistory} from 'history';
 
 // export const customHistory = createBrowserHistory(); 
@@ -33,6 +34,8 @@ function App() {
   //     setBackend(data)
   //   })
   // },[])
+
+  
   return (
     <div className="App">
       
@@ -46,6 +49,7 @@ function App() {
           <Banner />
        
           <Theme />
+      <Timeline />
           <About />
           {/* <Test/> */}
           <Connect />
