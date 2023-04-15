@@ -8,10 +8,11 @@ const Timer = () => {
   const [minutes, setMinutes] = React.useState(0);
   const [seconds, setSeconds] = React.useState(0);
 
-  const deadline = 'April, 15, 2023';
+  const deadline = '15 Apr 2023 6:30:00 GMT';
 
   const getTime = () => {
     const time = Date.parse(deadline) - Date.now();
+
     if (time <= 0) {
       setDays(0);
       setSeconds(0);
@@ -19,7 +20,7 @@ const Timer = () => {
       setMinutes(0);
     } else {
       setDays(Math.floor(time / (1000 * 60 * 60 * 24)));
-      setHours(Math.floor((time / (1000 * 60 * 60)) % 24)+12);
+      setHours(Math.floor((time / (1000 * 60 * 60)) % 24));
       setMinutes(Math.floor((time / 1000 / 60) % 60));
       setSeconds(Math.floor((time / 1000) % 60));
     }
