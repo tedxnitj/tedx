@@ -32,7 +32,7 @@ function TicketForm() {
             {/* <a href='https://www.nitj.ac.in/events_registration/tedxnitj/login' target='_blank' className='bookTicketBtn'><Button block style={{padding:'10px', alignItems:'center', margin:'6px auto', width:'100%',justifyContent:'center', backgroundColor: 'red'}} >BOOK AS SINGLE ATTENDEE<br/><h6 style={{fontFamily: 'Plus Jakarta Sans', textAlign: 'center', borderColor: 'red', border: '2px solid red', fontSize:'12px'}}>10% early bird discount till 10th April</h6></Button></a> */}
             <div style={{display: 'flex',justifyContent:'center'}}>
             {/* https://www.nitj.ac.in/events_registration/tedxnitj/login */}
-            <h4 id="book" className="bookButton buttonmodal"><a href='#' target='_blank'>BOOK</a></h4>
+            <h4 id="book" className="bookButton buttonmodal"><a href='#'>BOOK</a></h4>
             {/* <h4 id="book5"className="bookButton buttonmodal"><a href='https://bit.ly/tedx-group-5' target='_blank'><b>BOOK IN A GROUP (5-9):</b><br/>15% discount</a></h4>
             <h4 id="book10" className="bookButton buttonmodal"><a href='https://bit.ly/tedx-group-10' target='_blank'><b>BOOK IN A GROUP (10 or more):</b><br/>20% discount</a></h4> */}
             </div>
