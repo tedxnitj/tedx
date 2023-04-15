@@ -22,11 +22,11 @@
   h4.bookButton{
     font-family: "Plus Jakarta Sans";
     text-align: center;
-    padding: 10px;
+    padding: 8px 14px;
     font-size: 14px;
     color: white;
     background-color: rgb(39, 38, 38);
-    margin: 4px;
+
   }
   h4.bookButton a{
     text-decoration: none;
